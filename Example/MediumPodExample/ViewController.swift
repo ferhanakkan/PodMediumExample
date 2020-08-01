@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import MediumPodExample
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
+    
+   var myClass = MyClass()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        textLabel.text = myClass.getString()
+        imageView.image = myClass.getImage()
     }
 
     override func didReceiveMemoryWarning() {

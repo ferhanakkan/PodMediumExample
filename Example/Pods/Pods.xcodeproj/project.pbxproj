@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		26F4ED9BB45B10EA2D8BD337DAA86957 /* MediumPodExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C12A2245834659257CCE45B53DC029 /* MediumPodExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		272A634F1CED3970C9CF12FB1B5DC74F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		33EB1DB443BE7D9F7257088E4FD16E06 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28262C22CD19A0F2033F17F28B0265A1 /* ReplaceMe.swift */; };
+		36287C1024D59A0200994EEC /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36287C0F24D59A0200994EEC /* MyClass.swift */; };
+		36287C1224D59AE200994EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36287C1124D59AE200994EEC /* Assets.xcassets */; };
 		66DE7940CF419A94A9D68B4C90751681 /* Pods-MediumPodExample_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC063F2BDF2C34C6AF569F3FF10B927 /* Pods-MediumPodExample_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C9C8463422B47B3CEEFA4F950054379 /* Pods-MediumPodExample_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B57A1D675181D11D577F366AE36DA95 /* Pods-MediumPodExample_Example-dummy.m */; };
 		8F852DBEEAFCED58B84151B20B970708 /* MediumPodExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB7177AD4643B1AD87AE3FFB2C994B /* MediumPodExample-dummy.m */; };
@@ -42,9 +43,10 @@
 		1B5692F17B39F05CBB2756E2FD81C73F /* Pods-MediumPodExample_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MediumPodExample_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1BF2DE2C4DF820DE24389D2FD24EC60D /* MediumPodExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MediumPodExample.debug.xcconfig; sourceTree = "<group>"; };
 		1CA3B95A59042FCCFB94992E0470F105 /* Pods-MediumPodExample_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediumPodExample_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		28262C22CD19A0F2033F17F28B0265A1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MediumPodExample/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32C05DD326DE8521D8E473CA9983F9A2 /* Pods-MediumPodExample_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MediumPodExample_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36287C0F24D59A0200994EEC /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		36287C1124D59AE200994EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B41D6EEF4D943961FE733E058BD1E52 /* MediumPodExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MediumPodExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52044A81C810EF157480103E084C8AC8 /* Pods_MediumPodExample_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediumPodExample_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C63F82D123030F8AAE85921BF6AA642 /* Pods-MediumPodExample_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediumPodExample_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -118,9 +120,9 @@
 		21E7C6406C42DBCB95427FDBC84E608F /* MediumPodExample */ = {
 			isa = PBXGroup;
 			children = (
-				28262C22CD19A0F2033F17F28B0265A1 /* ReplaceMe.swift */,
 				36954519E5631B986DC7F6E19DE0A2E3 /* Pod */,
 				0459C5407A402F389611249715AD8783 /* Support Files */,
+				36287C0F24D59A0200994EEC /* MyClass.swift */,
 			);
 			name = MediumPodExample;
 			path = ../..;
@@ -188,6 +190,7 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
+				36287C1124D59AE200994EEC /* Assets.xcassets */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6DA41B105D1BA629EFF14DB381323EDF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
@@ -362,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36287C1224D59AE200994EEC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,8 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36287C1024D59A0200994EEC /* MyClass.swift in Sources */,
 				8F852DBEEAFCED58B84151B20B970708 /* MediumPodExample-dummy.m in Sources */,
-				33EB1DB443BE7D9F7257088E4FD16E06 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +495,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1BF2DE2C4DF820DE24389D2FD24EC60D /* MediumPodExample.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -512,6 +517,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -683,6 +689,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA67B4D485EA759E63D99D2548042D09 /* MediumPodExample.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
