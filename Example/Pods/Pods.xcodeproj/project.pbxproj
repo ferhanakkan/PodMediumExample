@@ -120,12 +120,28 @@
 		21E7C6406C42DBCB95427FDBC84E608F /* MediumPodExample */ = {
 			isa = PBXGroup;
 			children = (
+				362C347624D5B23F006A4139 /* Source */,
 				36954519E5631B986DC7F6E19DE0A2E3 /* Pod */,
 				0459C5407A402F389611249715AD8783 /* Support Files */,
-				36287C0F24D59A0200994EEC /* MyClass.swift */,
 			);
 			name = MediumPodExample;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		362C347524D5B231006A4139 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36287C1124D59AE200994EEC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		362C347624D5B23F006A4139 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				36287C0F24D59A0200994EEC /* MyClass.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		36954519E5631B986DC7F6E19DE0A2E3 /* Pod */ = {
@@ -190,7 +206,7 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				36287C1124D59AE200994EEC /* Assets.xcassets */,
+				362C347524D5B231006A4139 /* Resources */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6DA41B105D1BA629EFF14DB381323EDF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
