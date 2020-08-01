@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
 
 #  s.source_files = 'MediumPodExample/Classes/**/*'
     s.source_files = '*.{h,m,swift}'
-    s.resource = 'Example/Pods/**/*'
+    s.resource = 'Example/Pods/*'
   
   # s.resource_bundles = {
   #   'MediumPodExample' => ['MediumPodExample/Assets/*.png']
