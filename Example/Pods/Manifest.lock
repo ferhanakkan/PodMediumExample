@@ -1,0 +1,16 @@
+PODS:
+  - MediumPodExample (0.1.0)
+
+DEPENDENCIES:
+  - MediumPodExample (from `../`)
+
+EXTERNAL SOURCES:
+  MediumPodExample:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MediumPodExample: a29db313e657a920ce5bdb6c38e8844f8f600ff2
+
+PODFILE CHECKSUM: 9496c913076bd2d1e730702621bc67ecaf6d9d19
+
+COCOAPODS: 1.9.3

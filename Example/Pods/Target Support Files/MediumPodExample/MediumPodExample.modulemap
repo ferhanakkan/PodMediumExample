@@ -1,0 +1,6 @@
+framework module MediumPodExample {
+  umbrella header "MediumPodExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
